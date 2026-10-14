@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Retinol 0.3% Face Serum",
+    "brand": "Minimalist",
+    "type": "serum",
+    "price": 549,
+    "actives": ["retinol"]
+  },
+  {
+    "name": "Salicylic Acid 2% Face Wash",
+    "brand": "Minimalist",
+    "type": "cleanser",
+    "price": 299,
+    "actives": ["salicylic acid"]
+  },
+  {
+    "name": "Simple Facewash",
+    "brand": "Simple",
+    "type": "cleanser",
+    "price": 299,
+    "actives": []
+  },
+  {
+    "name": "Micellar Cleansing Water",
+    "brand": "Garnier",
+    "type": "cleanser",
+    "price": 559,
+    "actives": []
+  },
+  {
+    "name": "Wonder Ceramide Mochi Toner",
+    "brand": "Tonymoly",
+    "type": "toner",
+    "price": 1500,
+    "actives": ["ceramide"]
+  },
+  {
+    "name": "Lightweight Gel Sunscreen",
+    "brand": "Deconstruct",
+    "type": "sunscreen",
+    "price": 559,
+    "actives": ["niacinamide"]
+  },
+  {
+    "name": "Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "type": "serum",
+    "price": 699,
+    "actives": ["niacinamide", "zinc"]
+  }
+]
