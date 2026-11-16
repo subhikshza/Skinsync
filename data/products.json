@@ -1,51 +1,372 @@
 [
   {
+    "id": "minimalist-retinol-03-serum",
     "name": "Retinol 0.3% Face Serum",
     "brand": "Minimalist",
+    "brand_origin": "IN",
     "type": "serum",
-    "price": 549,
-    "actives": ["retinol"]
+    "price_inr": 599,
+    "actives": [
+      "retinol"
+    ],
+    "source_url": "https://beminimalist.co/products/retinol-0-3-q10"
   },
   {
-    "name": "Salicylic Acid 2% Face Wash",
+    "id": "minimalist-salicylic-lha-2-cleanser",
+    "name": "Salicylic Acid + LHA 2% Cleanser",
     "brand": "Minimalist",
+    "brand_origin": "IN",
     "type": "cleanser",
-    "price": 299,
-    "actives": ["salicylic acid"]
+    "price_inr": 299,
+    "actives": [
+      "salicylic-acid",
+      "lha"
+    ],
+    "source_url": "https://beminimalist.co/collections/all-products"
   },
   {
-    "name": "Simple Facewash",
-    "brand": "Simple",
-    "type": "cleanser",
-    "price": 299,
-    "actives": []
+    "id": "minimalist-niacinamide-10-serum",
+    "name": "Niacinamide 10% Face Serum",
+    "brand": "Minimalist",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 599,
+    "actives": [
+      "niacinamide"
+    ],
+    "source_url": "https://beminimalist.co/collections/all-products"
   },
   {
-    "name": "Micellar Cleansing Water",
-    "brand": "Garnier",
-    "type": "cleanser",
-    "price": 559,
-    "actives": []
+    "id": "minimalist-vitamin-c-10-serum",
+    "name": "Vitamin C 10% Face Serum",
+    "brand": "Minimalist",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 299,
+    "actives": [
+      "ethyl-ascorbic-acid"
+    ],
+    "source_url": "https://beminimalist.co/collections/all-products",
+    "note": "Vitamin C form (ethyl ascorbic acid) taken from the product's URL on the brand site."
   },
   {
-    "name": "Wonder Ceramide Mochi Toner",
-    "brand": "Tonymoly",
+    "id": "minimalist-salicylic-acid-2-serum",
+    "name": "Salicylic Acid 2% Face Serum",
+    "brand": "Minimalist",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 549,
+    "actives": [
+      "salicylic-acid"
+    ],
+    "source_url": "https://beminimalist.co/collections/all-products"
+  },
+  {
+    "id": "minimalist-glycolic-acid-8-toner",
+    "name": "Glycolic Acid 8% Exfoliating Liquid",
+    "brand": "Minimalist",
+    "brand_origin": "IN",
     "type": "toner",
-    "price": 1500,
-    "actives": ["ceramide"]
+    "price_inr": 499,
+    "actives": [
+      "glycolic-acid"
+    ],
+    "source_url": "https://beminimalist.co/collections/all-products"
   },
   {
-    "name": "Lightweight Gel Sunscreen",
-    "brand": "Deconstruct",
+    "id": "minimalist-spf-50-sunscreen",
+    "name": "SPF 50 Sunscreen",
+    "brand": "Minimalist",
+    "brand_origin": "IN",
     "type": "sunscreen",
-    "price": 559,
-    "actives": ["niacinamide"]
+    "price_inr": 399,
+    "actives": [],
+    "source_url": "https://beminimalist.co/collections/all-products"
   },
   {
+    "id": "minimalist-vitamin-b5-10-moisturizer",
+    "name": "Vitamin B5 10% Moisturizer",
+    "brand": "Minimalist",
+    "brand_origin": "IN",
+    "type": "moisturizer",
+    "price_inr": 349,
+    "actives": [
+      "panthenol"
+    ],
+    "source_url": "https://beminimalist.co/collections/all-products"
+  },
+  {
+    "id": "minimalist-b12-oat-gentle-cleanser",
+    "name": "B12 + Oat Extract 6.5% Gentle Cleanser",
+    "brand": "Minimalist",
+    "brand_origin": "IN",
+    "type": "cleanser",
+    "price_inr": 299,
+    "actives": [],
+    "source_url": "https://beminimalist.co/collections/all-products"
+  },
+  {
+    "id": "deconstruct-vitamin-c-10-serum",
+    "name": "10% Vitamin C Serum (with 0.5% Ferulic Acid)",
+    "brand": "Deconstruct",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 799,
+    "actives": [
+      "ethyl-ascorbic-acid"
+    ],
+    "source_url": "https://thedeconstruct.in/products/vitamin-c-and-ferulic-acid-serum"
+  },
+  {
+    "id": "deconstruct-retinol-peptide-serum",
+    "name": "Retinol & Peptide Serum (0.2% Retinol + 1% Peptide)",
+    "brand": "Deconstruct",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 799,
+    "actives": [
+      "retinol",
+      "peptides",
+      "hyaluronic-acid"
+    ],
+    "source_url": "https://thedeconstruct.in/products/retinol-and-peptide-serum"
+  },
+  {
+    "id": "deconstruct-glycolic-acid-7-toner",
+    "name": "Exfoliating 7% Glycolic Acid Toner with Niacinamide",
+    "brand": "Deconstruct",
+    "brand_origin": "IN",
+    "type": "toner",
+    "price_inr": 449,
+    "actives": [
+      "glycolic-acid",
+      "niacinamide"
+    ],
+    "source_url": "https://thedeconstruct.in/products/exfoliating-glycolic-acid-toner"
+  },
+  {
+    "id": "deconstruct-oil-control-serum",
+    "name": "Oil Control Serum (3% Niacinamide + 2% Salicylic Acid)",
+    "brand": "Deconstruct",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 799,
+    "actives": [
+      "salicylic-acid",
+      "niacinamide"
+    ],
+    "source_url": "https://thedeconstruct.in/products/pore-control-serum"
+  },
+  {
+    "id": "deconstruct-gel-sunscreen",
+    "name": "Gel Sunscreen for Oily Skin SPF 50 PA++++",
+    "brand": "Deconstruct",
+    "brand_origin": "IN",
+    "type": "sunscreen",
+    "price_inr": 399,
+    "actives": [],
+    "source_url": "https://thedeconstruct.in/products/gel-sunscreen-for-oily-skin",
+    "note": "The brand page lists no niacinamide in this sunscreen, so the earlier 'niacinamide' entry was removed."
+  },
+  {
+    "id": "deconstruct-oil-free-moisturizer",
+    "name": "Oil-Free Moisturizer for Oily Skin (3% NMF + 0.2% Panthenol)",
+    "brand": "Deconstruct",
+    "brand_origin": "IN",
+    "type": "moisturizer",
+    "price_inr": 349,
+    "actives": [
+      "panthenol"
+    ],
+    "source_url": "https://thedeconstruct.in/products/oil-free-moisturizer-for-oily-skin"
+  },
+  {
+    "id": "dermaco-niacinamide-10-serum",
+    "name": "10% Niacinamide Face Serum with 2% Zinc PCA",
+    "brand": "The Derma Co",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 599,
+    "actives": [
+      "niacinamide",
+      "zinc-pca"
+    ],
+    "source_url": "https://thedermaco.com/products/10-percent-niacinamide-serum"
+  },
+  {
+    "id": "dermaco-sali-cinamide-face-wash",
+    "name": "2% Sali-Cinamide Anti-Acne Face Wash",
+    "brand": "The Derma Co",
+    "brand_origin": "IN",
+    "type": "cleanser",
+    "price_inr": 549,
+    "actives": [
+      "salicylic-acid",
+      "niacinamide"
+    ],
+    "source_url": "https://thedermaco.com/products/2-sali-cinamide-anti-acne-face-wash-with-2-salicylic-acid-2-niacinamide-150-ml"
+  },
+  {
+    "id": "dermaco-benzoyl-peroxide-face-wash",
+    "name": "2.5% Benzoyl Peroxide Gel Face Wash",
+    "brand": "The Derma Co",
+    "brand_origin": "IN",
+    "type": "cleanser",
+    "price_inr": 329,
+    "actives": [
+      "benzoyl-peroxide"
+    ],
+    "source_url": "https://thedermaco.com/products/benzoyl-peroxide-gel-face-wash-100ml"
+  },
+  {
+    "id": "dermaco-vitamin-c-15-serum",
+    "name": "15% Vitamin C Face Serum",
+    "brand": "The Derma Co",
+    "brand_origin": "IN",
+    "type": "serum",
+    "price_inr": 799,
+    "actives": [
+      "ethyl-ascorbic-acid",
+      "niacinamide",
+      "hyaluronic-acid"
+    ],
+    "source_url": "https://thedermaco.com/products/15-vitamin-c-face-serum-30ml"
+  },
+  {
+    "id": "dermaco-hyaluronic-sunscreen-gel",
+    "name": "1% Hyaluronic Sunscreen Aqua Gel SPF 50 PA++++",
+    "brand": "The Derma Co",
+    "brand_origin": "IN",
+    "type": "sunscreen",
+    "price_inr": 499,
+    "actives": [
+      "hyaluronic-acid"
+    ],
+    "source_url": "https://thedermaco.com/products/1-hyaluronic-sunscreen-aqua-gel",
+    "note": "The full ingredient list also shows a small amount of ethyl ascorbic acid; only headline actives are recorded."
+  },
+  {
+    "id": "dermaco-oil-free-moisturizer",
+    "name": "Oil-Free Daily Face Moisturizer (Hyaluronic Acid + Ceramides)",
+    "brand": "The Derma Co",
+    "brand_origin": "IN",
+    "type": "moisturizer",
+    "price_inr": 349,
+    "actives": [
+      "hyaluronic-acid",
+      "ceramides"
+    ],
+    "source_url": "https://thedermaco.com/collections/skin-care"
+  },
+  {
+    "id": "dotkey-vitamin-c-e-sunscreen",
+    "name": "Vitamin C + E Sunscreen SPF 50+ PA++++",
+    "brand": "Dot & Key",
+    "brand_origin": "IN",
+    "type": "sunscreen",
+    "price_inr": 595,
+    "actives": [
+      "ascorbyl-glucoside",
+      "niacinamide"
+    ],
+    "source_url": "https://www.dotandkey.com/products/dot-key-vitamin-c-e-spf-50-pa-face-sunscreen-for-glowing-skin-uv-protection-for-dull-skin"
+  },
+  {
+    "id": "dotkey-barrier-repair-moisturizer",
+    "name": "Barrier Repair Moisturizer (Hyaluronic + Ceramides)",
+    "brand": "Dot & Key",
+    "brand_origin": "IN",
+    "type": "moisturizer",
+    "price_inr": 599,
+    "actives": [
+      "ceramides",
+      "hyaluronic-acid"
+    ],
+    "source_url": "https://www.dotandkey.com/products/dot-key-ceramides-hyaluronic-hydrating-face-cream-i-repairs-skin-barrier-intense-moisturization-sensitive-dry-skin-fragrance-free"
+  },
+  {
+    "id": "dotkey-retinol-night-cream",
+    "name": "Retinol Night Repair Cream with Ceramides",
+    "brand": "Dot & Key",
+    "brand_origin": "IN",
+    "type": "moisturizer",
+    "price_inr": 599,
+    "actives": [
+      "retinol",
+      "ceramides"
+    ],
+    "source_url": "https://www.dotandkey.com/products/retinol-ceramide-age-defense-night-cream",
+    "note": "Retinol percentage is not stated on the brand page."
+  },
+  {
+    "id": "dotkey-barrier-repair-face-wash",
+    "name": "Barrier Repair Gentle Hydrating Face Wash",
+    "brand": "Dot & Key",
+    "brand_origin": "IN",
+    "type": "cleanser",
+    "price_inr": 375,
+    "actives": [
+      "ceramides"
+    ],
+    "source_url": "https://www.dotandkey.com/collections/ceramides"
+  },
+  {
+    "id": "ordinary-niacinamide-10-zinc-1",
     "name": "Niacinamide 10% + Zinc 1%",
     "brand": "The Ordinary",
+    "brand_origin": "CA",
     "type": "serum",
-    "price": 699,
-    "actives": ["niacinamide", "zinc"]
+    "price_inr": 600,
+    "actives": [
+      "niacinamide",
+      "zinc-pca"
+    ],
+    "source_url": "https://www.nykaa.com/the-ordinary-niacinamide-10percent-zinc-1percent/p/15707745"
+  },
+  {
+    "id": "ordinary-glycolic-acid-7-toner",
+    "name": "Glycolic Acid 7% Exfoliating Toner",
+    "brand": "The Ordinary",
+    "brand_origin": "CA",
+    "type": "toner",
+    "price_inr": 1275,
+    "actives": [
+      "glycolic-acid"
+    ],
+    "source_url": "https://www.nykaa.com/skin/toners-mists/c/8391"
+  },
+  {
+    "id": "simple-refreshing-facial-wash",
+    "name": "Kind to Skin Refreshing Facial Wash",
+    "brand": "Simple",
+    "brand_origin": "GB",
+    "type": "cleanser",
+    "price_inr": 490,
+    "actives": [
+      "panthenol"
+    ],
+    "source_url": "https://www.simpleskincare.in/products/simple-kind-to-skin-refreshing-facial-wash-150ml"
+  },
+  {
+    "id": "garnier-micellar-cleansing-water",
+    "name": "Micellar Cleansing Water (400ml)",
+    "brand": "Garnier",
+    "brand_origin": "FR",
+    "type": "cleanser",
+    "price_inr": 449,
+    "actives": [],
+    "source_url": "https://www.garnier.in/about-our-brands/skin-naturals/micellar-water/micellar-cleansing-water"
+  },
+  {
+    "id": "tonymoly-ceramide-mochi-toner",
+    "name": "Wonder Ceramide Mochi Toner (500ml)",
+    "brand": "Tonymoly",
+    "brand_origin": "KR",
+    "type": "toner",
+    "price_inr": 1800,
+    "actives": [
+      "ceramides"
+    ],
+    "source_url": "https://www.nykaa.com/tonymoly-wonder-ceramide-mochi-toner/p/1201911"
   }
 ]

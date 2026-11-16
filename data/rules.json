@@ -1,0 +1,167 @@
+{
+  "conflicts": [
+    {
+      "id": "R1",
+      "family_a": "retinoid",
+      "family_b": "aha",
+      "type": "irritation",
+      "severity": "high",
+      "resolution": "separate_days",
+      "skip_if_wash_off": false,
+      "explanation": "Retinoids and AHAs both stress the skin. Using them on the same night raises the risk of redness and peeling.",
+      "source_title": "British Skin Foundation: Which pharmaceutical skincare you shouldn't mix and why",
+      "source_url": "https://www.britishskinfoundation.org.uk/which-pharmaceutical-skincare-you-shouldnt-mix-and-why"
+    },
+    {
+      "id": "R2",
+      "family_a": "retinoid",
+      "family_b": "bha",
+      "type": "irritation",
+      "severity": "medium",
+      "resolution": "separate_days",
+      "skip_if_wash_off": true,
+      "explanation": "Retinoids and salicylic acid can dry and irritate skin when layered. Dermatologists suggest alternate nights, or using the acid as a face wash.",
+      "source_title": "Yahoo/Byrdie: AHAs/BHAs vs Retinol, dermatologists explain",
+      "source_url": "https://www.yahoo.com/lifestyle/ahas-bhas-vs-retinol-dermatologists-070400368.html"
+    },
+    {
+      "id": "R3",
+      "family_a": "retinoid",
+      "family_b": "benzoyl_peroxide",
+      "type": "deactivation",
+      "severity": "high",
+      "resolution": "separate_slots",
+      "skip_if_wash_off": false,
+      "explanation": "Benzoyl peroxide is an oxidiser and can break down retinoids, and the pair is irritating. Use benzoyl peroxide in the morning and the retinoid at night.",
+      "source_title": "Martin et al. 1998, British Journal of Dermatology (PubMed)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9990414/"
+    },
+    {
+      "id": "R4",
+      "family_a": "vitamin_c",
+      "family_b": "benzoyl_peroxide",
+      "type": "deactivation",
+      "severity": "high",
+      "resolution": "separate_slots",
+      "skip_if_wash_off": false,
+      "explanation": "Benzoyl peroxide can degrade vitamin C, so the vitamin C stops working. Keep them in different routines.",
+      "source_title": "British Skin Foundation: Which pharmaceutical skincare you shouldn't mix and why",
+      "source_url": "https://www.britishskinfoundation.org.uk/which-pharmaceutical-skincare-you-shouldnt-mix-and-why"
+    },
+    {
+      "id": "R5",
+      "family_a": "vitamin_c",
+      "family_b": "retinoid",
+      "type": "irritation",
+      "severity": "medium",
+      "resolution": "separate_slots",
+      "skip_if_wash_off": false,
+      "explanation": "Vitamin C and retinoids together can cause redness. Vitamin C in the morning, retinoid at night.",
+      "source_title": "British Skin Foundation: Which pharmaceutical skincare you shouldn't mix and why",
+      "source_url": "https://www.britishskinfoundation.org.uk/which-pharmaceutical-skincare-you-shouldnt-mix-and-why"
+    },
+    {
+      "id": "R6",
+      "family_a": "vitamin_c",
+      "family_b": "aha",
+      "type": "irritation",
+      "severity": "medium",
+      "resolution": "separate_slots",
+      "skip_if_wash_off": false,
+      "explanation": "Vitamin C with AHAs can leave skin irritated, dry and flaky. Vitamin C in the morning, AHA at night.",
+      "source_title": "British Skin Foundation: Which pharmaceutical skincare you shouldn't mix and why",
+      "source_url": "https://www.britishskinfoundation.org.uk/which-pharmaceutical-skincare-you-shouldnt-mix-and-why"
+    },
+    {
+      "id": "R7",
+      "family_a": "niacinamide",
+      "family_b": "vitamin_c",
+      "type": "myth",
+      "severity": "info",
+      "resolution": "none",
+      "skip_if_wash_off": false,
+      "explanation": "Common myth. A cosmetic chemist's review found no loss of benefit and no skin damage from using niacinamide and vitamin C together.",
+      "source_title": "KindofStephen (cosmetic chemist): Niacinamide and Vitamin C",
+      "source_url": "https://kindofstephen.com/can-you-use-niacinamide-and-vitamin-c-ascorbic/"
+    }
+  ],
+  "timing": [
+    {
+      "id": "T1",
+      "family": "retinoid",
+      "allowed_slots": [
+        "PM"
+      ],
+      "max_days_per_week": {
+        "beginner": 3,
+        "regular": 7
+      },
+      "no_consecutive_days": {
+        "beginner": true,
+        "regular": false
+      },
+      "needs_sunscreen": true,
+      "explanation": "Night only. Beginners start on alternate nights and build up slowly.",
+      "source_title": "American Academy of Dermatology: Retinoid or retinol?",
+      "source_url": "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol"
+    },
+    {
+      "id": "T2",
+      "family": "aha",
+      "allowed_slots": [
+        "PM"
+      ],
+      "max_days_per_week": {
+        "beginner": 2,
+        "regular": 3
+      },
+      "no_consecutive_days": {
+        "beginner": true,
+        "regular": true
+      },
+      "needs_sunscreen": true,
+      "explanation": "Night only, because AHAs make skin more sensitive to the sun. Wear sunscreen every morning. Leave-on exfoliating acids are limited to a few nights a week.",
+      "source_title": "US FDA: Alpha Hydroxy Acids",
+      "source_url": "https://www.fda.gov/cosmetics/cosmetic-ingredients/alpha-hydroxy-acids"
+    },
+    {
+      "id": "T3",
+      "family": "bha",
+      "allowed_slots": [
+        "AM",
+        "PM"
+      ],
+      "max_days_per_week": {
+        "beginner": 2,
+        "regular": 3
+      },
+      "no_consecutive_days": {
+        "beginner": true,
+        "regular": true
+      },
+      "needs_sunscreen": false,
+      "explanation": "Leave-on exfoliating acids are limited to a few times a week. Over-exfoliating leaves skin red and irritated.",
+      "source_title": "American Academy of Dermatology news release: Evaluate before you exfoliate",
+      "source_url": "https://www.newswise.com/articles/evaluate-before-you-exfoliate"
+    },
+    {
+      "id": "T4",
+      "family": "vitamin_c",
+      "allowed_slots": [
+        "AM"
+      ],
+      "max_days_per_week": {
+        "beginner": 7,
+        "regular": 7
+      },
+      "no_consecutive_days": {
+        "beginner": false,
+        "regular": false
+      },
+      "needs_sunscreen": false,
+      "explanation": "Morning use is generally recommended for vitamin C.",
+      "source_title": "British Skin Foundation: Which pharmaceutical skincare you shouldn't mix and why",
+      "source_url": "https://www.britishskinfoundation.org.uk/which-pharmaceutical-skincare-you-shouldnt-mix-and-why"
+    }
+  ]
+}

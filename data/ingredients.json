@@ -1,0 +1,147 @@
+[
+  {
+    "id": "retinol",
+    "name": "Retinol",
+    "family": "retinoid",
+    "aliases": [
+      "vitamin a"
+    ]
+  },
+  {
+    "id": "retinal",
+    "name": "Retinal",
+    "family": "retinoid",
+    "aliases": [
+      "retinaldehyde"
+    ]
+  },
+  {
+    "id": "adapalene",
+    "name": "Adapalene",
+    "family": "retinoid",
+    "aliases": []
+  },
+  {
+    "id": "tretinoin",
+    "name": "Tretinoin",
+    "family": "retinoid",
+    "aliases": [
+      "retinoic acid"
+    ]
+  },
+  {
+    "id": "glycolic-acid",
+    "name": "Glycolic Acid",
+    "family": "aha",
+    "aliases": []
+  },
+  {
+    "id": "lactic-acid",
+    "name": "Lactic Acid",
+    "family": "aha",
+    "aliases": []
+  },
+  {
+    "id": "mandelic-acid",
+    "name": "Mandelic Acid",
+    "family": "aha",
+    "aliases": []
+  },
+  {
+    "id": "salicylic-acid",
+    "name": "Salicylic Acid",
+    "family": "bha",
+    "aliases": [
+      "beta hydroxy acid"
+    ]
+  },
+  {
+    "id": "lha",
+    "name": "LHA (Capryloyl Salicylic Acid)",
+    "family": "bha",
+    "aliases": [
+      "capryloyl salicylic acid",
+      "lipohydroxy acid"
+    ]
+  },
+  {
+    "id": "l-ascorbic-acid",
+    "name": "L-Ascorbic Acid",
+    "family": "vitamin_c",
+    "aliases": [
+      "ascorbic acid",
+      "vitamin c"
+    ]
+  },
+  {
+    "id": "ethyl-ascorbic-acid",
+    "name": "Ethyl Ascorbic Acid",
+    "family": "vitamin_c",
+    "aliases": [
+      "3-o-ethyl ascorbic acid",
+      "e-ascorbic acid"
+    ]
+  },
+  {
+    "id": "ascorbyl-glucoside",
+    "name": "Ascorbyl Glucoside",
+    "family": "vitamin_c",
+    "aliases": []
+  },
+  {
+    "id": "benzoyl-peroxide",
+    "name": "Benzoyl Peroxide",
+    "family": "benzoyl_peroxide",
+    "aliases": []
+  },
+  {
+    "id": "niacinamide",
+    "name": "Niacinamide",
+    "family": "niacinamide",
+    "aliases": [
+      "vitamin b3",
+      "nicotinamide"
+    ]
+  },
+  {
+    "id": "zinc-pca",
+    "name": "Zinc PCA",
+    "family": "none",
+    "aliases": [
+      "zinc"
+    ]
+  },
+  {
+    "id": "ceramides",
+    "name": "Ceramides",
+    "family": "none",
+    "aliases": [
+      "ceramide np",
+      "ceramide ap",
+      "ceramide eop"
+    ]
+  },
+  {
+    "id": "hyaluronic-acid",
+    "name": "Hyaluronic Acid",
+    "family": "none",
+    "aliases": [
+      "sodium hyaluronate"
+    ]
+  },
+  {
+    "id": "panthenol",
+    "name": "Panthenol (Vitamin B5)",
+    "family": "none",
+    "aliases": [
+      "pro-vitamin b5",
+      "d-panthenol"
+    ]
+  },
+  {
+    "id": "peptides",
+    "name": "Peptides",
+    "family": "none",
+    "aliases": []
+  }
+]

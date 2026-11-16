@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SkinSync
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/dist/
